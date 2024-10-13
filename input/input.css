@@ -1,0 +1,91 @@
+body {
+  background-image: linear-gradient(to right, white, grey);
+  overflow: hidden;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#judul {
+  position: relative;
+  text-align: center;
+  top: 100px;
+}
+
+#boxInput {
+  position: relative;
+  background-color: rgb(134, 134, 134);
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 100px;
+}
+
+.input {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#namaLabel {
+  position: absolute;
+  top: 30px;
+  font-weight: bold;
+}
+
+#namaBox {
+  position: absolute;
+  width: 70%;
+  height: 20px;
+  top: 50px;
+}
+
+#nimLabel {
+  position: absolute;
+  top: 80px;
+  font-weight: bold;
+}
+
+#nimBox {
+  position: absolute;
+  width: 70%;
+  height: 20px;
+  top: 100px;
+}
+
+#genderLabel {
+  position: absolute;
+  top: 130px;
+  font-weight: bold;
+}
+
+#genderSelect {
+  position: absolute;
+  top: 150px;
+  width: 73%;
+  height: 27px;
+}
+
+#submitButton {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  left: 100px;
+  top: 200px;
+  transition-duration: 0.5s;
+}
+
+#submitButton:hover {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  left: 95px;
+  top: 195px;
+  box-shadow: 5px 5px;
+  transition-duration: 0.5s;
+  background-color: lightgreen;
+}
