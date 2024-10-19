@@ -1,0 +1,49 @@
+body {
+  background-image: linear-gradient(to left, #93A5CF, #E4EfE9);
+}
+
+#judul {
+  position: relative;
+  text-align: center;
+}
+
+#tabelMahasiswa {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  border: 2px solid;
+  border-collapse: collapse;
+}
+
+.kriteriaUtama {
+  border: 2px solid;
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(69, 183, 253);
+  font-size: larger;
+}
+
+.isiTabel {
+  border: 2px solid;
+  height: 20px;
+  text-align: center;
+  padding: 10px;
+  font-size: medium;
+}
+
+.foto {
+  height: 100px;
+  width: 100px;
+}
+
+.baris {
+  background-color: lightblue;
+  transition-duration: 0.5s;
+}
+
+.baris:hover {
+  background-color: white;
+  transition-duration: 0.5s;
+}

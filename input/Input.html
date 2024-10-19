@@ -1,0 +1,33 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman Tambah Mahasiswa</title>
+  <link rel="stylesheet" type="text/css" href="input.css"/>
+</head>
+<body>
+  <h1 id="judul">Tambah Mahasiswa</h1>
+  <div id="box"></div>
+  <div id="boxInput">
+    <form>
+      <label id="namaLabel" class="input">Nama</label>
+      <br>
+      <input type="text" placeholder="Nama kamu..."id="namaBox" class="input"/>
+      <br>
+      <label id="nimLabel" class="input">NIM</label>
+      <br>
+      <input type="number" placeholder="NIM kamu..." id="nimBox" class="input"/>
+      <br>
+      <label id="genderLabel" class="input">Jenis Kelamin</label>
+      <select id="genderSelect" class="input">
+        <option selected disabled>--Pilih jenis kelamin--</option>
+        <option>Laki-Laki</option>
+        <option>Perempuan</option>
+      </select>
+      <br>
+      <button id="submitButton">Submit</button>
+    </form>
+</div>
+</body>
+</html>
