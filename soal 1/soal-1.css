@@ -1,0 +1,32 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+}
+
+.box {
+  background-color: rgb(79, 149, 206);
+  border-radius: 5px;
+  height: 160px;
+  width: 159px;
+  padding: 10px;
+}
+
+#firstBox {
+  display: flex;
+  color: white;
+}
+
+#secondBox {
+  display: flex;
+  margin-left: 2px;
+  margin-right: 2px;
+  color: white;
+}
+
+#thirdBox {
+  display: flex;
+  color: white;
+}

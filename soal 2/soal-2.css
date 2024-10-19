@@ -1,0 +1,36 @@
+.grid-container {
+  display: inline-grid;
+  width: 600px;
+  row-gap: 20px;
+  column-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: rgb(79, 149, 206);
+  display: grid;
+  height: 30px;
+  border-radius: 5px;
+  padding: 7px;
+  line-height: 30px;
+  color: white;
+  
+}
+
+#one {
+  grid-column: 1/4;
+}
+
+#two {
+  grid-column: 1/2;
+}
+
+#three {
+  grid-column: 2/4;
+}
+
+#four {
+  grid-column: 2/4;
+}
