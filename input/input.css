@@ -1,6 +1,5 @@
 body {
   background-image: linear-gradient(to right, white, grey);
-  overflow: hidden;
 }
 
 input::-webkit-outer-spin-button,
@@ -15,7 +14,7 @@ input::-webkit-inner-spin-button {
   top: 100px;
 }
 
-#boxInput {
+.boxInput {
   position: relative;
   background-color: rgb(134, 134, 134);
   height: 300px;
@@ -88,4 +87,9 @@ input::-webkit-inner-spin-button {
   box-shadow: 5px 5px;
   transition-duration: 0.5s;
   background-color: lightgreen;
+}
+
+#time {
+  display: block;
+  top: 0px;
 }
